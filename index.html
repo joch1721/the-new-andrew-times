@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Daily Puzzle</title>
+<title>The New Andrew Times</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -475,10 +475,10 @@
 <body>
 
 <header class="masthead">
-  <span class="masthead-meta">Vol. I &middot; No. 001 &middot; <span id="todayDate"></span></span>
+  <span class="masthead-meta">Vol. I &middot; No. 020 &middot; <span id="todayDate"></span></span>
   <h1 class="masthead-title">THE DAILY PUZZLE</h1>
   <!-- PERSONALIZE: swap in something like "THE [NAME] TIMES" and a tagline that's an inside joke -->
-  <p class="masthead-tagline">Five puzzles. One page. No subscription required.</p>
+  <p class="masthead-tagline">How well does the kid know himself??? This is the ultimate test</p>
 </header>
 
 <nav class="section-tabs" id="tabs">
@@ -495,7 +495,7 @@
     <div class="page-head">
       <span class="page-kicker">Puzzle 1</span>
       <h2 class="page-title">Wordle</h2>
-      <p class="page-sub">Guess the five-letter word in six tries. Three rounds &mdash; switch below.</p>
+      <p class="page-sub">Three whole rounds of Wordle in 1 day? Lucky you! Solve all three for a treat.</p>
     </div>
     <div class="card">
       <div class="wordle-subtabs" id="wordleSubtabs">
@@ -514,7 +514,7 @@
     <div class="page-head">
       <span class="page-kicker">Puzzle 2</span>
       <h2 class="page-title">Connections</h2>
-      <p class="page-sub">Find groups of four that share something in common.</p>
+      <p class="page-sub">Trust me... they are all real words. This is the puzzle where I really think I can give you a run for your money!</p>
     </div>
     <div class="card">
       <div id="connSolvedRows"></div>
@@ -533,8 +533,8 @@
   <section class="page" id="game-mini">
     <div class="page-head">
       <span class="page-kicker">Puzzle 3</span>
-      <h2 class="page-title">The Mini</h2>
-      <p class="page-sub">A quick 5&times;5 crossword.</p>
+      <h2 class="page-title">The Mega</h2>
+      <p class="page-sub">A quick 9&times;5 crossword.</p>
     </div>
     <div class="card">
       <div class="crossword-grid" id="crosswordGrid"></div>
@@ -561,7 +561,7 @@
     <div class="page-head">
       <span class="page-kicker">Puzzle 4</span>
       <h2 class="page-title">Strands</h2>
-      <p class="page-sub">Find hidden words related to today's theme. One word is the spangram &mdash; it touches two sides of the board.</p>
+      <p class="page-sub">Wow. Look at all those letters.</p>
     </div>
     <div class="card">
       <div class="strands-theme" id="strandsTheme"></div>
@@ -582,7 +582,32 @@
 </main>
 
 <footer>
-  Built for a birthday. Not affiliated with The New York Times.
+Dog goes "woof", cat goes "meow"
+Bird goes "tweet" and mouse goes "squeak"
+Cow goes "moo", frog goes "croak"
+And the elephant goes "toot"
+
+Ducks say "quack" and fish go "blub"
+And the seal goes "ow ow ow"
+But there's one sound that no one knows
+
+What does the fox say?
+"Ring-ding-ding-ding-dingeringeding!
+Gering-ding-ding-ding-dingeringeding!
+Gering-ding-ding-ding-dingeringeding!"
+What the fox say?
+"Wa-pa-pa-pa-pa-pa-pow!
+Wa-pa-pa-pa-pa-pa-pow!
+Wa-pa-pa-pa-pa-pa-pow!"
+What the fox say?
+"Hatee-hatee-hatee-ho!
+Hatee-hatee-hatee-ho!
+Hatee-hatee-hatee-ho!"
+What the fox say?
+"Joff-tchoff-tchoffo-tchoffo-tchoff!
+Tchoff-tchoff-tchoffo-tchoffo-tchoff!
+Joff-tchoff-tchoffo-tchoffo-tchoff!"
+What the fox say?
 </footer>
 
 <div class="win-overlay" id="winOverlay">
@@ -1152,7 +1177,7 @@ document.getElementById('finalClose').addEventListener('click', () => {
    ============================================================ */
 (function(){
   const ROWS = 7, COLS = 8;
-  const THEME = "Today's Theme: His Teams";
+  const THEME = "Today's Theme: Team";
   const GRID_LETTERS = [
     [null,'A','W','P','G','U','N',null],
     ['D','R','Z','I','E','N','I','S'],
